@@ -1,7 +1,7 @@
 // Pedir al usuario su nombre
 const nombreUsuario = prompt("Ingresa tu nombre:");
 
-// Obtener referencias a los elementos del DOM
+// Obtener referencias a los elementos 
 const formulario = document.getElementById("formulario");
 const inputNumero = document.getElementById("numero");
 const resultado = document.getElementById("resultado");
@@ -55,6 +55,5 @@ function reiniciarJuego() {
 formulario.addEventListener("submit", manejarFormulario);
 resetButton.addEventListener("click", reiniciarJuego);
 
- 
 
-  
+
